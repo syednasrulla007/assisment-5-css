@@ -1,0 +1,122 @@
+body{
+    background-color:darkseagreen;
+}
+.container1 {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 200px;
+
+
+}
+a{
+    font-size: xx-large;
+}
+.item{
+    position: relative;
+    margin: 40px;
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    animation: first 5s infinite linear;
+
+}
+@keyframes first {
+    0%{
+        transform: skew(0deg);
+    }
+    25%{
+       transform: skew(20deg);
+    }
+    50%{
+        transform: skew(0deg);
+    }
+    75%{
+        transform: skew(-20deg);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+.item2{
+    background-color: red;
+    animation: second 5s infinite linear;
+
+}
+@keyframes second {
+    0%{
+        transform: skewy(0deg);
+    }
+    25%{
+       transform: skewy(20deg);
+    }
+    50%{
+        transform: skewy(0deg);
+    }
+    75%{
+        transform: skewy(-20deg);
+    }
+    100%{
+        transform: skewy(0deg);
+    }
+}
+.item3{
+    background-color: green;
+    animation: third 5s infinite linear;
+
+}
+@keyframes third {
+    0%{
+        transform: rotateZ(0deg);
+    }
+    100%{
+       transform: rotateZ(360deg);
+    }
+    
+}
+.item4{
+    background-color: yellow;
+    animation: four 3s infinite linear;
+}
+.item5{
+    background-color: yellow;
+    animation: five 5s infinite linear;
+}
+.item6{
+    background-color: yellow;
+    animation: six 5s infinite linear;
+}
+@keyframes four {
+   0%{
+    transform:rotateX(0deg);
+   }
+   50% {
+    transform: rotateX(60deg);
+   }
+   100%{
+    transform:rotateX(0deg);
+   }
+}
+@keyframes five {
+    0%{
+     transform:rotatey(0deg);
+    }
+    50% {
+     transform: rotatey(60deg);
+    }
+    100%{
+     transform:rotatey(0deg);
+    }
+ }
+ @keyframes six {
+    0%{
+     transform:rotatez(0deg);
+    }
+    50% {
+     transform: rotatez(60deg);
+    }
+    100%{
+     transform:rotatez(0deg);
+    }
+ }

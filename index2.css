@@ -1,0 +1,94 @@
+body{
+    background-color: gray;
+
+}
+.container{ 
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: left;
+    transition: 2s all ease-in-out;
+    
+}
+.item{
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 30px;
+    color: aqua;
+    margin: 10px;
+    height: 70px;
+    width: 100px;
+    background-color:chartreuse;
+}
+.item1{
+    transition: all ease-in-out 2s;
+}
+.item1:hover {
+   
+    width: 300px;
+    
+}
+.container:hover {
+   width: 300px;
+}
+.item2{
+    transition: 2S ease-in-out;
+}
+
+.item2:hover {
+    
+    width: 300px;
+    height: 300PX;
+   
+}
+.item3{
+    transition: 2S ease;
+}
+
+.item3:hover {
+  
+    width: 300px;
+   
+}
+.item4{
+    transition: 1S linear;
+}
+
+.item4:hover {
+   
+    width: 300px;
+   
+}
+.item5{
+    transition: 2S ease-in;
+}
+
+.item5:hover {
+   
+    width: 300px;
+   
+}
+.item6{
+    transition: 2S ease-out;
+}
+
+.item6:hover {
+    
+    width: 300px;
+   
+}
+.item7{
+    transition: 2S ease-in-out;
+}
+
+.item7:hover {
+   
+    width: 300px;
+   
+}
+a{
+    font-size: xx-large;
+}
+
+
